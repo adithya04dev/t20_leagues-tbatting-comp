@@ -63,7 +63,7 @@ def main():
         # Assuming df is your DataFrame containing the required columns
         sns.set(style="white")
         
-       plt.figure(figsize=(15, 9))
+        plt.figure(figsize=(15, 9))
         scatter_plot = sns.scatterplot(y='average_runs', x='run_rate', data=result1)
         
         
